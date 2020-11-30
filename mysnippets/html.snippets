@@ -1,0 +1,77 @@
+snippet class "class global attribute"
+class="$1"
+endsnippet
+
+snippet div "<div>" w
+<div>
+	${0:${VISUAL}}
+</div>
+endsnippet
+
+snippet div. "<div> with class" w
+<div`!p snip.rv=' class="' if t[1] else ""`${1:name}`!p snip.rv = '"' if t[1] else ""`>
+	${0:${VISUAL}}
+</div>
+endsnippet
+
+snippet h1 "HTML <h1>" w
+<h1>${0:${VISUAL}}</h1>
+endsnippet
+
+snippet h2 "HTML <h2>" w
+<h2>${0:${VISUAL}}</h2>
+endsnippet
+
+snippet h3 "HTML <h3>" w
+<h3>${0:${VISUAL}}</h3>
+endsnippet
+
+snippet h4 "HTML <h4>" w
+<h4>${0:${VISUAL}}</h4>
+endsnippet
+
+snippet h5 "HTML <h5>" w
+<h5>${0:${VISUAL}}</h5>
+endsnippet
+
+snippet h6 "HTML <h6>" w
+<h6>${0:${VISUAL}}</h6>
+endsnippet
+
+snippet id "id global attribute" w
+id="$1"
+endsnippet
+
+snippet li "list item" w
+<li>${0:${VISUAL}}</li>
+endsnippet
+
+snippet ol "<ol>"
+<ol>
+	<li>$1</li>
+</ol>
+endsnippet
+
+snippet p "paragraph" w
+<p>${0:${VISUAL}}</p>
+endsnippet
+
+snippet small "<small>" w
+<small>$1</small>
+endsnippet
+
+snippet span "<span>" w
+<span>${0:${VISUAL}}</span>
+endsnippet
+
+snippet span. "<span> with class" w
+<span`!p snip.rv=' class="' if t[1] else ""`${1:name}`!p snip.rv = '"' if t[1] else ""`>${0:${VISUAL}}</span>
+endsnippet
+
+snippet ul "unordered list" w
+<ul>
+	${0:${VISUAL}}
+</ul>
+endsnippet
+
+

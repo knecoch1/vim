@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/kevinnecochea/Documents/Notes/CFA/LVL2/Accounting'
+let g:netrw_dirhist_5='/Users/kevinnecochea'
+let g:netrw_dirhist_4='/Users/kevinnecochea/Documents/Notes/CFA/LVL2/Accounting'
+let g:netrw_dirhist_3='/Users/kevinnecochea/Documents/Notes/CFA'
+let g:netrw_dirhist_2='/Users/kevinnecochea'
+let g:netrw_dirhist_1='/Users/kevinnecochea/Documents/Notes'
+let g:netrw_dirhist_0='/Users/kevinnecochea'
+let g:netrw_dirhist_9='/Users/kevinnecochea/Documents'
+let g:netrw_dirhist_8='/Users/kevinnecochea/Documents/Notes'
+let g:netrw_dirhist_7='/Users/kevinnecochea/Documents/Notes/CFA/LVL2'
